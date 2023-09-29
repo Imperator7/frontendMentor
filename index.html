@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @font-face {
+        font-family: "outfit";
+        src: url(https://fonts.google.com/specimen/Outfit) format("truetype");
+      }
+      body {
+        background-color: hsl(212, 45%, 89%);
+      }
+      center {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        background-color: white;
+        border-radius: 15px;
+        top: 100px;
+        left: 40%;
+        font-family: "Outfit", 400;
+        width: 220px;
+      }
+      .QR {
+        position: relative;
+        top: 10px;
+        max-width: 200px;
+        border-radius: 10px;
+        padding: 0;
+      }
+      .header {
+        font-family: "Outfit", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+      }
+      .details {
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font: 10px light;
+        color: hsl(220, 15%, 55%);
+        max-width: 70%;
+        padding: 0px;
+        margin: 10px 0px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <img src="images/image-qr-code.png" alt="QR" class="QR" />
+
+      <p class="header">
+        Improve your front-end <br />
+        skills by building projects
+      </p>
+
+      <p class="details">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </center>
+  </body>
+</html>
